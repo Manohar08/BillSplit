@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+
+    >
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="20dp"
+    android:weightSum="10"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/a2ll1tv1"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:hint="Enter the name"
+        android:textSize="25dp"
+        android:id="@+id/a2ll1et1"
+
+        />
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="18dp"
+android:weightSum="10"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"
+    android:text="Amount"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:id="@+id/a2ll2tv1"
+
+    />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="7"
+    android:hint="Enter the amount"
+    android:textSize="25dp"
+    android:inputType="number"
+    android:id="@+id/a2ll2et1"
+
+    />
+</LinearLayout>
+
+</LinearLayout>
